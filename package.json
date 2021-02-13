@@ -34,7 +34,7 @@
   "author": "Giedrius Vičkus",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/giedriusvickus/react-smart-link.git",
   "keywords": [
     "react-component"
   ]
