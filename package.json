@@ -1,6 +1,6 @@
 {
   "name": "react-smart-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-smart-link React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -25,11 +25,7 @@
     "react-router-dom": "4.x"
   },
   "devDependencies": {
-    "history": "^5.0.0",
-    "nwb": "0.25.x",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "nwb": "0.25.x"
   },
   "author": "Giedrius Vičkus",
   "homepage": "",

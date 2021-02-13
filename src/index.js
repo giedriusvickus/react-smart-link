@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const ReactSmartLink = ({ to, children, ...props }) => {
   // It is a simple element with nothing to link to
   if (!to) {
-      return <button {...props}>{children}</button>;
+      return <button type="button" {...props}>{children}</button>;
   }
 
   const isExternalLink = /^https?:\/\//.test(to);
