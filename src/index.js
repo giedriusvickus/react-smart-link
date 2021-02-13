@@ -1,9 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const GenericLink = ({ to, children, ...props }) => {
+/**
+ * @param to External or internal URL
+ * @param children
+ * @param props
+ * @returns {*}
+ * @constructor
+ */
+const ReactSmartLink = ({ to, children, ...props }) => {
   // It is a simple element with nothing to link to
-  if (!to) return <button {...props}>{children}</button>;
+  if (!to) {
+      return <button {...props}>{children}</button>;
+  }
 
   const isExternalLink = /^https?:\/\//.test(to);
 
@@ -23,4 +32,4 @@ const GenericLink = ({ to, children, ...props }) => {
   );
 };
 
-export default GenericLink;
+export default ReactSmartLink;
