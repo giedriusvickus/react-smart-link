@@ -21,14 +21,16 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "16.x"
+    "react": "16.x",
+    "react-router-dom": "4.x"
   },
   "devDependencies": {
     "nwb": "0.25.x",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
-  "author": "",
+  "author": "Giedrius Vičkus",
   "homepage": "",
   "license": "MIT",
   "repository": "",
