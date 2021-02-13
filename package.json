@@ -32,6 +32,7 @@
   "license": "MIT",
   "repository": "https://github.com/giedriusvickus/react-smart-link.git",
   "keywords": [
-    "react-component"
+    "react-component",
+    "react-router-dom"
   ]
 }
