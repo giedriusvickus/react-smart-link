@@ -1,6 +1,6 @@
 {
   "name": "react-smart-link",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-smart-link React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,7 +22,7 @@
   "dependencies": {},
   "peerDependencies": {
     "react": "16.x",
-    "react-router-dom": "4.x"
+    "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
     "nwb": "0.25.x"
