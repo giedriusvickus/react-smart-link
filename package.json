@@ -1,6 +1,6 @@
 {
   "name": "react-smart-link",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react-smart-link React component",
   "main": "lib/index.js",
   "module": "es/index.js",

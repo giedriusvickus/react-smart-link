@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Link } from "react-router-dom";
 
 /**
@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
  * @returns {*}
  * @constructor
  */
-const ReactSmartLink = ({ to, children, type, target, ...props }) => {
+const ReactSmartLink = forwardRef(({ to, children, type, target, ...props }, ref) => {
   // It is a simple element with nothing to link to
   if (!to) {
       if (type) {
@@ -26,17 +26,17 @@ const ReactSmartLink = ({ to, children, type, target, ...props }) => {
   // It is intended to be an external link
   if (isExternalLink)
     return (
-        <a href={to} target={target} {...props}>
+        <a href={to} target={target} rel="nofollow noopener" ref={ref} {...props}>
           {children}
         </a>
     );
 
   // it is an internal link
   return (
-      <Link to={to} {...props}>
+      <Link to={to} ref={ref} {...props}>
         {children}
       </Link>
   );
-};
+});
 
 export default ReactSmartLink;
